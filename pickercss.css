@@ -1,0 +1,23 @@
+/* colorpicker styles */
+.colorpicker {
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    position: relative;
+    width: 320px;
+}
+#picker {
+    cursor: crosshair;
+    float: left;
+    margin: 10px;
+    border: 0;
+}
+.preview {
+    background: url("../select.png") repeat scroll center center transparent;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
